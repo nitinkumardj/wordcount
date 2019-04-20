@@ -1,0 +1,13 @@
+<h1>WordCount</h1>
+This is our homepage.
+<br>
+<br>
+Type something in textbox.
+<form action="{% url 'count' %}">
+  <textarea name="textareabox" rows="8" cols="80"></textarea>
+  <br>
+  <input type="submit" value="Count"/>
+</form>
+
+<br><br>
+<a href="{% url 'about' %}">About Us</a>
